@@ -1,0 +1,22 @@
+{
+    "name": "repejota/silex-nats-provider",
+    "description": "NATS service provider for the Silex micro framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raül Pérez",
+            "email": "repejota@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "silex/api": "^2.1",
+        "repejota/nats": "^0.8.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    }
+}
