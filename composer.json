@@ -11,7 +11,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "silex/api": "^2.1"
+        "silex/api": "^2.1",
+        "repejota/nats": "^0.8.5"
     },
     "autoload": {
         "psr-0": {
